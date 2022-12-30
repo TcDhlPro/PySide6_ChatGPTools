@@ -4,27 +4,27 @@
 #@作者/Author : 大灰狼 
 #@邮件/Email  : dhltl@foxmail.com | ybsets@gmail.com
 
-from AppCore.packages_app_link import sys_argv as call_sys_argv
-from AppCore.packages_app_link import sys_exit as call_sys_exit
-from AppCore.packages_app_link import json_load as call_json_load
-from AppCore.packages_app_link import json_dump as call_json_dump
-from AppCore.packages_app_link import os_environ as call_os_environ
+from Distbuild.packages_app_link import sys_argv as call_sys_argv
+from Distbuild.packages_app_link import sys_exit as call_sys_exit
+from Distbuild.packages_app_link import json_load as call_json_load
+from Distbuild.packages_app_link import json_dump as call_json_dump
+from Distbuild.packages_app_link import os_environ as call_os_environ
 
-from AppCore.packages_app_link import PySide6_QtWidgets_QMainWindow as call_PySide6_QtWidgets_QMainWindow
-from AppCore.packages_app_link import PySide6_QtWidgets_QApplication as call_PySide6_QtWidgets_QApplication
-from AppCore.packages_app_link import PySide6_QtCore_QCoreApplication as call_PySide6_QtCore_QCoreApplication
-from AppCore.packages_app_link import PySide6_QtWidgets_QMessageBox as call_PySide6_QtWidgets_QMessageBox
-from AppCore.packages_app_link import PySide6_QtCore_QThread as call_PySide6_QtCore_QThread
-from AppCore.packages_app_link import PySide6_QtCore_Signal as call_PySide6_QtCore_Signal
-from AppCore.packages_app_link import PySide6_QtGui_QMovie as call_PySide6_QtGui_QMovie
-# from AppCore.packages_app_link import PySide6_QtCore_Qt as call_PySide6_QtCore_Qt
-from AppCore.packages_app_link import PySide6_QtCore_QTranslator as call_PySide6_QtCore_QTranslator
-from AppCore.packages_app_link import PySide6_QtGui_QIcon as call_PySide6_QtGui_QIcon
-from AppCore.packages_app_link import PySide6_QtCore_QSize as call_PySide6_QtCore_QSize
+from Distbuild.packages_app_link import PySide6_QtWidgets_QMainWindow as call_PySide6_QtWidgets_QMainWindow
+from Distbuild.packages_app_link import PySide6_QtWidgets_QApplication as call_PySide6_QtWidgets_QApplication
+from Distbuild.packages_app_link import PySide6_QtCore_QCoreApplication as call_PySide6_QtCore_QCoreApplication
+from Distbuild.packages_app_link import PySide6_QtWidgets_QMessageBox as call_PySide6_QtWidgets_QMessageBox
+from Distbuild.packages_app_link import PySide6_QtCore_QThread as call_PySide6_QtCore_QThread
+from Distbuild.packages_app_link import PySide6_QtCore_Signal as call_PySide6_QtCore_Signal
+from Distbuild.packages_app_link import PySide6_QtGui_QMovie as call_PySide6_QtGui_QMovie
+# from Distbuild.packages_app_link import PySide6_QtCore_Qt as call_PySide6_QtCore_Qt
+from Distbuild.packages_app_link import PySide6_QtCore_QTranslator as call_PySide6_QtCore_QTranslator
+from Distbuild.packages_app_link import PySide6_QtGui_QIcon as call_PySide6_QtGui_QIcon
+from Distbuild.packages_app_link import PySide6_QtCore_QSize as call_PySide6_QtCore_QSize
 
-from AppCore import PrivateAppCore as call_PrivateAppCore
-from AppCore.packages_app_link import APP_MainWindow as call_APP_MainWindow
-from AppCore.packages_app_link import PrivateSetPath as call_PrivateSetPath
+from Distbuild.AppCore import PrivateAppCore as call_PrivateAppCore
+from Distbuild.packages_app_link import APP_MainWindow as call_APP_MainWindow
+from Distbuild.packages_app_link import PrivateSetPath as call_PrivateSetPath
 
 
 class LinkAPPMainWindow(call_PySide6_QtWidgets_QMainWindow):

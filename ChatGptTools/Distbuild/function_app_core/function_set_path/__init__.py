@@ -4,8 +4,8 @@
 #@作者/Author : 大灰狼 
 #@邮件/Email  : dhltl@foxmail.com | ybsets@gmail.com
 
-from AppCore.packages_app_link import os_path as call_os_path
-from AppCore.packages_app_link import pathlib_Path as call_pathlib_Path
+from Distbuild.packages_app_link import os_path as call_os_path
+from Distbuild.packages_app_link import pathlib_Path as call_pathlib_Path
 
 
 class PrivateSetPath:

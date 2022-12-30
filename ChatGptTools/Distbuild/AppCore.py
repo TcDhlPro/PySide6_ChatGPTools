@@ -5,13 +5,14 @@
 #@邮件/Email  : dhltl@foxmail.com | ybsets@gmail.com
 
 # 加入线程threading功能, 加入pyside6界面, 把三个变量改成json本地读取并可以手动设置
-from .packages_app_link import json_load as call_json_load
+from Distbuild.packages_app_link import json_load as call_json_load
 
-from .packages_app_link import openai as call_openai
-from .packages_app_link import transformers_GPT2TokenizerFast as call_transformers_GPT2TokenizerFast
+# from Distbuild.packages_app_link import openai as call_openai
+import openai as call_openai
+from Distbuild.packages_app_link import transformers_GPT2TokenizerFast as call_transformers_GPT2TokenizerFast
 
-from .packages_app_link import PrivateSetPath as call_PrivateSetPath
-from .packages_app_link import PrivateGetExRate as call_PrivateGetExRate
+from Distbuild.packages_app_link import PrivateSetPath as call_PrivateSetPath
+from Distbuild.packages_app_link import PrivateGetExRate as call_PrivateGetExRate
 
 
 class PrivateAppCore:

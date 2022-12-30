@@ -5,16 +5,16 @@
 #@邮件/Email  : dhltl@foxmail.com | ybsets@gmail.com
 
 
-from AppCore.packages_app_link import socket as call_socket
-from AppCore.packages_app_link import re_search as call_re_search
-from AppCore.packages_app_link import re_findall as call_re_findall
-from AppCore.packages_app_link import requests_get as call_requests_get
-from AppCore.packages_app_link import socks_SOCKS5 as call_socks_SOCKS5
-from AppCore.packages_app_link import socks_set_default_proxy as call_socks_set_default_proxy
-from AppCore.packages_app_link import socks_socksocket as call_socks_socksocket
-from AppCore.packages_app_link import json_load as call_json_load
+from Distbuild.packages_app_link import socket as call_socket
+from Distbuild.packages_app_link import re_search as call_re_search
+from Distbuild.packages_app_link import re_findall as call_re_findall
+from Distbuild.packages_app_link import requests_get as call_requests_get
+from Distbuild.packages_app_link import socks_SOCKS5 as call_socks_SOCKS5
+from Distbuild.packages_app_link import socks_set_default_proxy as call_socks_set_default_proxy
+from Distbuild.packages_app_link import socks_socksocket as call_socks_socksocket
+from Distbuild.packages_app_link import json_load as call_json_load
 
-from AppCore.packages_app_link import PrivateSetPath as call_PrivateSetPath
+from Distbuild.packages_app_link import PrivateSetPath as call_PrivateSetPath
 
 
 class PrivateGetExRate:

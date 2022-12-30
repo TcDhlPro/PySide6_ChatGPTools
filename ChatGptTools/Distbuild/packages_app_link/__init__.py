@@ -25,7 +25,7 @@ from socks import SOCKS5 as socks_SOCKS5
 from socks import set_default_proxy as socks_set_default_proxy
 from socks import socksocket as socks_socksocket
 # 三方库
-import openai
+# import openai
 from requests import get as requests_get
 from transformers import GPT2TokenizerFast as transformers_GPT2TokenizerFast
 from PySide6.QtWidgets import QMainWindow as PySide6_QtWidgets_QMainWindow
@@ -40,6 +40,7 @@ from PySide6.QtGui import QIcon as PySide6_QtGui_QIcon
 from PySide6.QtCore import QSize as PySide6_QtCore_QSize
 # from PySide6.QtCore import Qt as PySide6_QtCore_Qt
 # 私模块
-from AppCore.interface_app_ui import Ui_MainWindow as APP_MainWindow
-from AppCore.function_app_core.function_set_path import PrivateSetPath
-from AppCore.function_app_core.function_get_exrate import PrivateGetExRate
+# from Distbuild.AppCore import PrivateAppCore
+from Distbuild.function_app_core.function_set_path import PrivateSetPath
+from Distbuild.function_app_core.function_get_exrate import PrivateGetExRate
+from Distbuild.interface_app_ui import Ui_MainWindow as APP_MainWindow
