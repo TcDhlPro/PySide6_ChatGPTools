@@ -52,6 +52,28 @@
 ---
 
 # 关于程序打包
-- 我用的是Nuitka
-- [程序下载-待定](https://www.google.com)
-  - 不支持64位
+- Nuitka打包失败, 问题应该在三方库transformers或tensorflow
+  - [程序下载-待定](https://www.google.com)
+
+- Pyinstaller打包
+  - 打包命令:
+    ```shell
+    pyinstaller `
+    -D -y -i icon.ico `
+    AppRun.py `
+    --copy-metadata tqdm `
+    --copy-metadata regex `
+    --copy-metadata requests `
+    --copy-metadata packaging `
+    --copy-metadata filelock `
+    --copy-metadata numpy `
+    --copy-metadata tokenizers
+    ```
+  - 关于命令中`--copy-metadata`参数的值是怎么来的:
+    - 在当前虚拟环境中新建个`temp.py`文件, 代码如下:
+    ```shell
+    from transformers.dependency_versions_check import pkgs_to_check_at_runtime
+    print(pkgs_to_check_at_runtime)
+    ```
+
+  - [程序下载](https://github.com/TcDhlPro/PySide6_ChatGPTools/releases/download/v1.0.0.0/ChatGptTools.zip)
