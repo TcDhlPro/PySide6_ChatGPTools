@@ -107,8 +107,8 @@ class PrivateAppCore:
         # socket.socket = socks.socksocket
         # headers = {
         #     'Content-Type': 'application/json',
-        #     'Authorization': 'Bearer {}'.format("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"),
-        #     'OpenAI-Organization': 'org-nRRH1MmMz6YiqhBVMLc537Zm'
+        #     'Authorization': 'Bearer {}'.format("sk-"),
+        #     'OpenAI-Organization': 'org-'
         # }
         # response = requests.post('https://api.openai.com/v1/completions', headers=headers, json={
         # "model": "text-davinci-003",
