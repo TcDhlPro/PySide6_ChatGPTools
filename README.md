@@ -48,7 +48,7 @@
     - 根据报错提示中的Url, 打开后再根据你的Python版本
     - 比如我是64位的, 我安装了```vc_redist.x64.exe```
 - 程序截图参考:
-    ![输入图片说明](https://agent-jsdelivr.gethub.tk/gh/TcDhlPro/blog_res/Other-images/ChatGPTools_Demo.png)
+    ![输入图片说明](https://cdn-jsdelivr-agent-github.08w80.com/gh/TcDhlPro/blog_res/Other-images/ChatGPTools_Demo.png)
 ---
 
 # 关于程序打包
